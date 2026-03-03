@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PRO ATS – IT Resume Intelligence</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.8/mammoth.browser.min.js"></script>
+</head>
+<body>
+
+<h1>🚀 PRO ATS – IT Resume Analyzer</h1>
+
+<div class="container">
+
+  <textarea id="jobDesc" placeholder="Paste Job Description Here"></textarea>
+
+  <input type="file" id="resumeUpload" multiple accept=".pdf,.docx">
+
+  <button onclick="analyze()">Analyze Resumes</button>
+
+  <div id="results"></div>
+
+</div>
+
+<script src="skills.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
