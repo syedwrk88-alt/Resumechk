@@ -1,3 +1,5 @@
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
 async function analyze() {
 
   const jd = document.getElementById("jobDesc").value.toLowerCase();
@@ -76,3 +78,4 @@ function displayResults(results) {
 
   document.getElementById("results").innerHTML = html;
 }
+
